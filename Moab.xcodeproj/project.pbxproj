@@ -15,6 +15,13 @@
 		B1245E9B1C6DB935001144F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1245E991C6DB935001144F8 /* LaunchScreen.storyboard */; };
 		B1245EA61C6DB935001144F8 /* MoabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1245EA51C6DB935001144F8 /* MoabTests.m */; };
 		B1245EB11C6DB935001144F8 /* MoabUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1245EB01C6DB935001144F8 /* MoabUITests.m */; };
+		B13AF3B61C6DC30C007FDF8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B13AF3AC1C6DC30C007FDF8D /* AppDelegate.m */; };
+		B13AF3B71C6DC30C007FDF8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B13AF3AD1C6DC30C007FDF8D /* Assets.xcassets */; };
+		B13AF3B81C6DC30C007FDF8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B13AF3AE1C6DC30C007FDF8D /* LaunchScreen.storyboard */; };
+		B13AF3B91C6DC30C007FDF8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B13AF3B01C6DC30C007FDF8D /* Main.storyboard */; };
+		B13AF3BA1C6DC30C007FDF8D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B13AF3B21C6DC30C007FDF8D /* Info.plist */; };
+		B13AF3BB1C6DC30C007FDF8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B13AF3B31C6DC30C007FDF8D /* main.m */; };
+		B13AF3BC1C6DC30C007FDF8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B13AF3B51C6DC30C007FDF8D /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,15 @@
 		B1245EAC1C6DB935001144F8 /* MoabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1245EB01C6DB935001144F8 /* MoabUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoabUITests.m; sourceTree = "<group>"; };
 		B1245EB21C6DB935001144F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B13AF3AB1C6DC30C007FDF8D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B13AF3AC1C6DC30C007FDF8D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B13AF3AD1C6DC30C007FDF8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B13AF3AF1C6DC30C007FDF8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B13AF3B11C6DC30C007FDF8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B13AF3B21C6DC30C007FDF8D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B13AF3B31C6DC30C007FDF8D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B13AF3B41C6DC30C007FDF8D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B13AF3B51C6DC30C007FDF8D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +97,7 @@
 		B1245E7F1C6DB935001144F8 = {
 			isa = PBXGroup;
 			children = (
+				B13AF3AA1C6DC30C007FDF8D /* Demo */,
 				B1245E8A1C6DB935001144F8 /* Moab */,
 				B1245EA41C6DB935001144F8 /* MoabTests */,
 				B1245EAF1C6DB935001144F8 /* MoabUITests */,
@@ -138,6 +155,22 @@
 				B1245EB21C6DB935001144F8 /* Info.plist */,
 			);
 			path = MoabUITests;
+			sourceTree = "<group>";
+		};
+		B13AF3AA1C6DC30C007FDF8D /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				B13AF3AB1C6DC30C007FDF8D /* AppDelegate.h */,
+				B13AF3AC1C6DC30C007FDF8D /* AppDelegate.m */,
+				B13AF3AD1C6DC30C007FDF8D /* Assets.xcassets */,
+				B13AF3AE1C6DC30C007FDF8D /* LaunchScreen.storyboard */,
+				B13AF3B01C6DC30C007FDF8D /* Main.storyboard */,
+				B13AF3B21C6DC30C007FDF8D /* Info.plist */,
+				B13AF3B31C6DC30C007FDF8D /* main.m */,
+				B13AF3B41C6DC30C007FDF8D /* ViewController.h */,
+				B13AF3B51C6DC30C007FDF8D /* ViewController.m */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +235,7 @@
 		B1245E801C6DB935001144F8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MOB;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = rbbtsn0w;
 				TargetAttributes = {
@@ -245,7 +279,11 @@
 			files = (
 				B1245E9B1C6DB935001144F8 /* LaunchScreen.storyboard in Resources */,
 				B1245E981C6DB935001144F8 /* Assets.xcassets in Resources */,
+				B13AF3B71C6DC30C007FDF8D /* Assets.xcassets in Resources */,
+				B13AF3B91C6DC30C007FDF8D /* Main.storyboard in Resources */,
+				B13AF3B81C6DC30C007FDF8D /* LaunchScreen.storyboard in Resources */,
 				B1245E961C6DB935001144F8 /* Main.storyboard in Resources */,
+				B13AF3BA1C6DC30C007FDF8D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +308,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B13AF3BC1C6DC30C007FDF8D /* ViewController.m in Sources */,
+				B13AF3BB1C6DC30C007FDF8D /* main.m in Sources */,
+				B13AF3B61C6DC30C007FDF8D /* AppDelegate.m in Sources */,
 				B1245E931C6DB935001144F8 /* ViewController.m in Sources */,
 				B1245E901C6DB935001144F8 /* AppDelegate.m in Sources */,
 				B1245E8D1C6DB935001144F8 /* main.m in Sources */,
@@ -322,6 +363,22 @@
 				B1245E9A1C6DB935001144F8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B13AF3AE1C6DC30C007FDF8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B13AF3AF1C6DC30C007FDF8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B13AF3B01C6DC30C007FDF8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B13AF3B11C6DC30C007FDF8D /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -496,6 +553,7 @@
 				B1245EB71C6DB935001144F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1245EB81C6DB935001144F8 /* Build configuration list for PBXNativeTarget "MoabTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +562,7 @@
 				B1245EBA1C6DB935001144F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1245EBB1C6DB935001144F8 /* Build configuration list for PBXNativeTarget "MoabUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +571,7 @@
 				B1245EBD1C6DB935001144F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
